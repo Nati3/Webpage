@@ -1,0 +1,50 @@
+
+
+/*nav bar*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 23px 1010px;
+overflow: hidden;
+background-color: rgba(255,255,255,0.5);
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 18px;
+text-decoration: none;
+font-size: 22px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+
+li a:hover {
+background-color: #8F663C;
+padding: 15px 18px;
+}
+
+#software{
+  font-size: 60px;
+  font-family: monospace;
+  color: #8F663C;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#description2{
+  font-size: 30px;
+  font-family: monospace;
+  color: #888;
+  padding: 20px;
+
+}
