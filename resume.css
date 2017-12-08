@@ -42,7 +42,7 @@
 ul {
 list-style-type: none;
 margin: 0;
-padding: 20px 1020px;
+padding: 18px 2%;
 overflow: hidden;
 background-color: rgba(255,255,255,0.5);
 position: fixed;
@@ -377,4 +377,4 @@ margin-top: 150px;
       border-top: 2px solid #ccc;
       width: 600px;
       margin-top: 25px;
-           }
+     }

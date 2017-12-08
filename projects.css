@@ -41,7 +41,7 @@
 ul {
 list-style-type: none;
 margin: 0;
-padding: 18px 1000px;
+padding: 18px 2%;
 overflow: hidden;
 background-color: rgba(255,255,255,0.5);
 position: fixed;
@@ -67,7 +67,7 @@ letter-spacing: 2px;
 
 /*hover over items on nav bar*/
 li a:hover {
-background-color: #AAAAAAAA;
+background-color: rgba(255,255,255,0.5);
 padding: 15px 18px;
 }
 
@@ -78,7 +78,7 @@ padding: 15px 18px;
  float: left;
  margin-top: 100px;
  position:sticky;
- margin-left: 20px;
+
 }
 
 #project2018{
