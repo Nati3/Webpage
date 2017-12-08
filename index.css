@@ -138,3 +138,31 @@ font-family: monospace;
 font-weight: lighter;
 color:#888;
 }
+
+body {
+	background-color: #1a1a1a;
+}
+
+
+/*download button*/
+.button {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+
+	background-color: #888;
+	color: white;
+
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+  margin-left: 650px;
+  margin-top: -50px;
+}
+
+.button:hover {
+	background-color: #333;
+	color: white;
+}
