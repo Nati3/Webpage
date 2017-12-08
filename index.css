@@ -2,7 +2,7 @@
 ul {
 list-style-type: none;
 margin: 0;
-padding: 15px 1000px;
+padding: 18px 2%;
 overflow: hidden;
 background-color: rgba(255,255,255,0.3);
 position:fixed;
@@ -76,7 +76,7 @@ padding: 15px 17px;
     font-family: monospace;
 }
 
-/*next page*/
+/*lower page*/
 .arrow {
   box-sizing: border-box;
   height: 5vw;
@@ -114,6 +114,7 @@ padding: 15px 17px;
     padding: 150px 100px;
 }
 
+/*texte on right had side*/
 #col2{
  background-color:white;
  width:45%;
@@ -122,6 +123,7 @@ padding: 15px 17px;
 
 }
 
+/*Hello!*/
 .h1 {
 font-size: 50px;
 font-family: monospace;
@@ -129,7 +131,8 @@ font-weight: lighter;
 color:#555;
 }
 
-.text2 {
+/*paragraph about me*/
+.text {
 font-size: 20px;
 font-family: monospace;
 font-weight: lighter;

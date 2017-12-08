@@ -16,7 +16,6 @@
         font-family: monospace;
     }
 
-
 /*horizontal line after text*/
     .centered:before, .centered:after {
         position: absolute;
@@ -27,12 +26,10 @@
         content: '\a0';
         background-color: white;
     }
-
     .centered:before {
         margin-left: -50%;
         text-align: right;
     }
-
     .color {
         background-color: #ccc;
     }
@@ -45,7 +42,8 @@
       position: absolute;
       left: 50%;
       margin-left: -3px;
-      top: 640px;
+      top: 580px;
+
   }
 
 
@@ -53,7 +51,7 @@
 ul {
 list-style-type: none;
 margin: 0;
-padding: 23px 1000px;
+padding: 18px 2%;
 overflow: hidden;
 background-color: rgba(255,255,255,0.5);
 position: fixed;
@@ -128,6 +126,7 @@ font-size: 50px;
 font-family:sans-serif;
 font-weight: lighter;
 color:#AA5E11;
+position: relative;
 }
 
 /*Email link*/
@@ -157,13 +156,13 @@ padding; 0px 0;
   text-decoration: none;
   margin: 5px 2px;
   margin-top: 150px;
-}
+  position: static;
 
+}
 
 .fa:hover {
     opacity: 0.7;
 }
-
 
 .fa-facebook {
   background: #3B5998;
@@ -171,12 +170,10 @@ padding; 0px 0;
   margin-left: 125px;
 }
 
-
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-
 
 .fa-instagram {
   background: #125688;
